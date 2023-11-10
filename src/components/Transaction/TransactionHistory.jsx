@@ -5,10 +5,6 @@ import styles from './Transaction.module.css';
 import transactions from './transactions.json';
 
 const TransactionHistory = () => {
-  const formatAmount = (amount, currency) => {
-    return `${amount} ${currency}`;
-  };
-
   return (
     <table className={styles.transactionHistory}>
       <thead>
